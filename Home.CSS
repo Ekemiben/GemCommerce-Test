@@ -12,7 +12,6 @@ body {
 	font-weight: 400;
 	font-style: normal;
 	width: 1920px;
-	
 }
 .main-container {
 	width: 1920px;
@@ -22,33 +21,30 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    margin-top: 100px;
+	margin-top: 100px;
 }
-.cover .heading{
-   
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-    width: 536px;
-    height: 96px;
-    border:2px solid green;
+.cover .heading {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+	width: 536px;
+	height: 96px;
+	text-align: center;
 }
-.cover h1{
-    font-size: 40px;
-    font-weight: 600;
-    margin: auto;
+.cover h1 {
+	font-size: 40px;
+	font-weight: 600;
 }
 .section-one {
 	width: 1170px;
 	height: 370px;
-	
+
 	display: flex;
 	flex-direction: column;
 
 	align-items: center;
 }
 .real-food-cover {
-	
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -132,8 +128,8 @@ button:hover {
 .money-guarantee {
 	display: flex;
 	flex-direction: row;
-	/* width: 210px; */
-	/* border:2px dashed green; */
+	
+
 }
 .money-guarantee img {
 	width: 16px;
@@ -142,7 +138,7 @@ button:hover {
 .money-guarantee p {
 	font-size: 13px;
 	line-height: 19.5px;
-	font-family: "Courier New", Courier, monospace;
+	
 }
 .trans-img {
 	/* width: 228px; */
@@ -157,7 +153,7 @@ button:hover {
 .section-two {
 	width: 1920px;
 	height: 731px;
-	border: 1px solid green;
+
 	display: flex;
 	flex-direction: column;
 
@@ -229,89 +225,83 @@ button:hover {
 }
 
 /* Section Three */
-.section-three{
-    width:1920px;
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+.section-three {
+	width: 1920px;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
 }
-.section-three-cover{
-    display: flex;
-    flex-direction: row;
-    width: 1170px;
-    height: 480px;
-    justify-content: space-between;
-    align-items: center;
+.section-three-cover {
+	display: flex;
+	flex-direction: row;
+	width: 1170px;
+	height: 480px;
+	justify-content: space-between;
+	align-items: center;
 }
-.section-three-img{
-    width: 570px;
-    height: 480px;
-
+.section-three-img {
+	width: 570px;
+	height: 480px;
 }
-.section-three-text{
-    width: 570px;
-    height: 280px;
+.section-three-text {
+	width: 570px;
+	height: 280px;
 }
-.section-three-text p{
-    margin-left: 32px ;
+.section-three-text p {
+	margin-left: 32px;
 }
-.section-three-text p:first-child{
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 48px;
+.section-three-text p:first-child {
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 48px;
 }
-.section-three-text p:nth-child(2){
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    color:#424153;
-    margin-top: 20px;
-
+.section-three-text p:nth-child(2) {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #424153;
+	margin-top: 20px;
 }
-
 
 /* Section Four */
-.section-four{
-    width:1920px;
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+.section-four {
+	width: 1920px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
-.section-four-cover{
-    display: flex;
-    flex-direction: row;
-    width: 1170px;
-    height: 480px;
-    justify-content: space-between;
-    align-items: center;
+.section-four-cover {
+	display: flex;
+	flex-direction: row;
+	width: 1170px;
+	height: 480px;
+	justify-content: space-between;
+	align-items: center;
 }
-.section-four-img{
-    width: 570px;
-    height: 480px;
-
+.section-four-img {
+	width: 570px;
+	height: 480px;
 }
-.section-four-text{
-    width: 570px;
-    height: 280px;
+.section-four-text {
+	width: 570px;
+	height: 280px;
 }
-.section-four-text p{
-    margin-left: 32px ;
+.section-four-text p {
+	margin-left: 32px;
 }
-.section-four-text p:first-child{
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 48px;
+.section-four-text p:first-child {
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 48px;
 }
-.section-four-text p:nth-child(2){
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    color:#424153;
-    margin-top: 20px;
-    margin-bottom: 100px;
-
+.section-four-text p:nth-child(2) {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #424153;
+	margin-top: 20px;
 }
