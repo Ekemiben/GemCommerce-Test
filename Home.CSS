@@ -105,6 +105,7 @@ body {
 	width: 462px;
 	height: 88px;
 }
+
 button {
 	background-color: #ee6f4b;
 	height: 48px;
@@ -150,17 +151,18 @@ button:hover {
 .trans-img:hover {
 	cursor: pointer;
 }
+
+/* Section Two */
 .section-two {
 	width: 1920px;
 	height: 731px;
-
 	display: flex;
 	flex-direction: column;
-
 	align-items: center;
 	margin-top: 250px;
 	background-color: #f8f8f8;
 }
+
 .section-two-cover {
 	display: flex;
 	flex-direction: row;
@@ -172,8 +174,8 @@ button:hover {
 .nitrition {
 	width: 570px;
 	height: 571px;
-	/* border: 2px solid green; */
 }
+
 .nutrition-head p:nth-child(1) {
 	font-size: 40px;
 	width: 538px;
@@ -304,4 +306,319 @@ button:hover {
 	font-weight: 400;
 	color: #424153;
 	margin-top: 20px;
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 600px){
+	body {
+	width: 100vw;
+}
+.main-container {
+	width: 100vw;
+}
+	.cover .heading{
+		font-size: 16px;
+	}
+	
+.cover .heading {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+.cover h1 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.section-one {
+	width: 100vw;
+	height: auto;
+
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	
+}
+
+.real-food-cover {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.real-food-sm-img {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 370px;
+	height: 85px;
+	row-gap: 20px;
+	/* border:3px solid red; */
+}
+.real-food-sm-img img {
+	width: 60px;
+	height: 60px;
+}
+.real-food-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 286px;
+	height: 85px;
+}
+.transaction {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	width: 462px;
+	height: 158px;
+	
+}
+button {
+	background-color: #ee6f4b;
+	height: 48px;
+	width: 262px;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 5px;
+	line-height: 24px;
+	border: none;
+	margin: auto;
+}
+button:hover {
+	cursor: pointer;
+}
+.money-back {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 10px;
+	align-items: center;
+	width: 462px;
+	height:60px;
+	
+}
+.money-guarantee {
+	display: flex;
+	flex-direction: row;
+	
+}
+
+/* Section two */
+.section-two {
+	width: 100vw;
+	height:auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+	background-color: #f8f8f8;
+	
+}
+
+.section-two-cover {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100vw;
+	height: auto;
+	/* border: 1px solid tomato; */
+	/* column-gap: 20px; */
+	
+	
+}
+.nitrition {
+	width: 100vw;
+	height: auto;
+	/* border: 1px solid tomato; */
+	
+}
+.nutrition-head{
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.nutrition-head p:nth-child(1) {
+	font-size: 20px;
+	width: 95%;
+}
+.nutrition-head p:nth-child(2) {
+	font-size: 20px;
+	width: 95%;
+}
+.key-points{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 95%;
+
+}
+.percentage{
+	width: 95%;
+}
+.percent{
+	width: 95%;
+}
+.percent p:nth-child(1){
+	font-size: 15px;
+}
+.dog-btn {
+	width: 320px;
+	height: 48px;
+	margin-top: 28px;
+	margin: auto;
+}
+.dog-btn button {
+	background-color: #ee6f4b;
+	width: 320px;
+	height: 48px;
+	border-radius: 5px;
+}
+.dog-bites{
+	width: 90%;
+	margin-top: 20px;
+}
+.dog-bites img{
+	width: 100%;
+}
+
+
+/* Section Three */
+
+.section-three {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+.section-three-cover {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: auto;
+	justify-content: space-evenly;
+	align-items: center;
+	
+}
+.section-three-img {
+	width: 90%;
+
+	object-fit: cover;
+	height: 350px;
+}
+.section-three-img img{
+	width: 100%;
+	
+	
+}
+.section-three-text {
+	width: 95%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-three-text p:first-child {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 48px;
+}
+.section-three-text p:nth-child(2) {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #424153;
+}
+
+
+/* Section Four */
+.section-four {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+.section-four-cover {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: auto;
+	justify-content: space-evenly;
+	align-items: center;
+	
+}
+.section-four-img {
+	width: 90%;
+
+	object-fit: cover;
+	height: 350px;
+}
+.section-four-img img{
+	width: 100%;
+	
+	
+}
+.section-four-text {
+	width: 95%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-four-text p:first-child {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 48px;
+}
+.section-four-text p:nth-child(2) {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #424153;
+}
+
+/* .section-four {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.section-four-cover {
+	display: flex;
+	flex-direction: column;
+	
+	height: 480px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.section-four-text p:first-child {
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 48px;
+}
+.section-four-text p:nth-child(2) {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #424153;
+	margin-top: 20px;
+} */
 }
